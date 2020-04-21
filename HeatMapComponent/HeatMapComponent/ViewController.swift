@@ -10,6 +10,8 @@ import Cocoa
 
 class ViewController: NSViewController {
     var lineChartWindow: InteractiveHMViewController?
+    
+    // This is for test commit
     let graphDataSet = [
         ["mpn": "MPN 1", "soldTo": "Sold To 1", "deltaToTWOs": 1],
         ["mpn": "MPN 2", "soldTo": "Sold To 1", "deltaToTWOs": 1],
