@@ -1,0 +1,6 @@
+framework module Pods_HeatMapComponent_HeatMapComponentUITests {
+  umbrella header "Pods-HeatMapComponent-HeatMapComponentUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

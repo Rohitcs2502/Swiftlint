@@ -1,0 +1,20 @@
+PODS:
+  - CorePlot (2.3)
+  - SwiftLint (0.39.2)
+
+DEPENDENCIES:
+  - CorePlot
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - CorePlot
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  CorePlot: 6bfe6d30d215beec3cfd18ee43e434620119bc1e
+  SwiftLint: 22ccbbe3b8008684be5955693bab135e0ed6a447
+
+PODFILE CHECKSUM: 4ecd028ec399c42303b175253dc125af119d0ec4
+
+COCOAPODS: 1.9.1

@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		245C06B967A4B52CC39B8AFF /* Pods_HeatMapComponent_HeatMapComponentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95275C43B168BD7FCD72741D /* Pods_HeatMapComponent_HeatMapComponentUITests.framework */; };
+		64540B8824484EE2003ADBC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64540B8724484EE2003ADBC2 /* AppDelegate.swift */; };
+		64540B8A24484EE2003ADBC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64540B8924484EE2003ADBC2 /* ViewController.swift */; };
+		64540B8C24484EE6003ADBC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64540B8B24484EE6003ADBC2 /* Assets.xcassets */; };
+		64540B8F24484EE6003ADBC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64540B8D24484EE6003ADBC2 /* Main.storyboard */; };
+		64540B9B24484EE7003ADBC2 /* HeatMapComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64540B9A24484EE7003ADBC2 /* HeatMapComponentTests.swift */; };
+		64540BA624484EE7003ADBC2 /* HeatMapComponentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64540BA524484EE7003ADBC2 /* HeatMapComponentUITests.swift */; };
+		64540BB524484F32003ADBC2 /* InteractiveHMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64540BB324484F32003ADBC2 /* InteractiveHMViewController.swift */; };
+		64540BB624484F32003ADBC2 /* InteractiveHMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64540BB424484F32003ADBC2 /* InteractiveHMViewController.xib */; };
+		64540BFA244EB6F8003ADBC2 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 64540BF9244EB6F8003ADBC2 /* .swiftlint.yml */; };
+		C62C0905BDDA13D8D81394A1 /* Pods_HeatMapComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 954E5FC9A273689C0CB0250D /* Pods_HeatMapComponent.framework */; };
+		FB6EB26B0E53DB913DF02F20 /* Pods_HeatMapComponentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3497A755E7684219FECC4B8D /* Pods_HeatMapComponentTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64540B9724484EE7003ADBC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64540B7C24484EE2003ADBC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64540B8324484EE2003ADBC2;
+			remoteInfo = HeatMapComponent;
+		};
+		64540BA224484EE7003ADBC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64540B7C24484EE2003ADBC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64540B8324484EE2003ADBC2;
+			remoteInfo = HeatMapComponent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		133910CF1D09B400EDCB7BBD /* Pods-HeatMapComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeatMapComponent.release.xcconfig"; path = "Target Support Files/Pods-HeatMapComponent/Pods-HeatMapComponent.release.xcconfig"; sourceTree = "<group>"; };
+		3497A755E7684219FECC4B8D /* Pods_HeatMapComponentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeatMapComponentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		530CB9BD44F52625ACFAB7E2 /* Pods-HeatMapComponentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeatMapComponentTests.debug.xcconfig"; path = "Target Support Files/Pods-HeatMapComponentTests/Pods-HeatMapComponentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		630EF76DA263319411EA7A7C /* Pods-HeatMapComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeatMapComponent.debug.xcconfig"; path = "Target Support Files/Pods-HeatMapComponent/Pods-HeatMapComponent.debug.xcconfig"; sourceTree = "<group>"; };
+		64540B8424484EE2003ADBC2 /* HeatMapComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeatMapComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64540B8724484EE2003ADBC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64540B8924484EE2003ADBC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64540B8B24484EE6003ADBC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64540B8E24484EE6003ADBC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64540B9024484EE6003ADBC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64540B9124484EE6003ADBC2 /* HeatMapComponent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HeatMapComponent.entitlements; sourceTree = "<group>"; };
+		64540B9624484EE7003ADBC2 /* HeatMapComponentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeatMapComponentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64540B9A24484EE7003ADBC2 /* HeatMapComponentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatMapComponentTests.swift; sourceTree = "<group>"; };
+		64540B9C24484EE7003ADBC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64540BA124484EE7003ADBC2 /* HeatMapComponentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeatMapComponentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64540BA524484EE7003ADBC2 /* HeatMapComponentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatMapComponentUITests.swift; sourceTree = "<group>"; };
+		64540BA724484EE7003ADBC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64540BB324484F32003ADBC2 /* InteractiveHMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveHMViewController.swift; sourceTree = "<group>"; };
+		64540BB424484F32003ADBC2 /* InteractiveHMViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InteractiveHMViewController.xib; sourceTree = "<group>"; };
+		64540BF9244EB6F8003ADBC2 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
+		74605713AD7A0F930A3DE903 /* Pods-HeatMapComponentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeatMapComponentTests.release.xcconfig"; path = "Target Support Files/Pods-HeatMapComponentTests/Pods-HeatMapComponentTests.release.xcconfig"; sourceTree = "<group>"; };
+		95275C43B168BD7FCD72741D /* Pods_HeatMapComponent_HeatMapComponentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeatMapComponent_HeatMapComponentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		954E5FC9A273689C0CB0250D /* Pods_HeatMapComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeatMapComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA53E51062A32C6301BCDD3E /* Pods-HeatMapComponent-HeatMapComponentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeatMapComponent-HeatMapComponentUITests.debug.xcconfig"; path = "Target Support Files/Pods-HeatMapComponent-HeatMapComponentUITests/Pods-HeatMapComponent-HeatMapComponentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E520853633761F27E6431B77 /* Pods-HeatMapComponent-HeatMapComponentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeatMapComponent-HeatMapComponentUITests.release.xcconfig"; path = "Target Support Files/Pods-HeatMapComponent-HeatMapComponentUITests/Pods-HeatMapComponent-HeatMapComponentUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64540B8124484EE2003ADBC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62C0905BDDA13D8D81394A1 /* Pods_HeatMapComponent.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64540B9324484EE7003ADBC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6EB26B0E53DB913DF02F20 /* Pods_HeatMapComponentTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64540B9E24484EE7003ADBC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				245C06B967A4B52CC39B8AFF /* Pods_HeatMapComponent_HeatMapComponentUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		497DFD5239FF4239CE8A8F35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				954E5FC9A273689C0CB0250D /* Pods_HeatMapComponent.framework */,
+				95275C43B168BD7FCD72741D /* Pods_HeatMapComponent_HeatMapComponentUITests.framework */,
+				3497A755E7684219FECC4B8D /* Pods_HeatMapComponentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64540B7B24484EE2003ADBC2 = {
+			isa = PBXGroup;
+			children = (
+				64540B8624484EE2003ADBC2 /* HeatMapComponent */,
+				64540B9924484EE7003ADBC2 /* HeatMapComponentTests */,
+				64540BA424484EE7003ADBC2 /* HeatMapComponentUITests */,
+				64540B8524484EE2003ADBC2 /* Products */,
+				B7C463D0B4F1E86EAE2A3AF8 /* Pods */,
+				497DFD5239FF4239CE8A8F35 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		64540B8524484EE2003ADBC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64540B8424484EE2003ADBC2 /* HeatMapComponent.app */,
+				64540B9624484EE7003ADBC2 /* HeatMapComponentTests.xctest */,
+				64540BA124484EE7003ADBC2 /* HeatMapComponentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64540B8624484EE2003ADBC2 /* HeatMapComponent */ = {
+			isa = PBXGroup;
+			children = (
+				64540B8724484EE2003ADBC2 /* AppDelegate.swift */,
+				64540B8924484EE2003ADBC2 /* ViewController.swift */,
+				64540B8B24484EE6003ADBC2 /* Assets.xcassets */,
+				64540B8D24484EE6003ADBC2 /* Main.storyboard */,
+				64540B9024484EE6003ADBC2 /* Info.plist */,
+				64540B9124484EE6003ADBC2 /* HeatMapComponent.entitlements */,
+				64540BB324484F32003ADBC2 /* InteractiveHMViewController.swift */,
+				64540BB424484F32003ADBC2 /* InteractiveHMViewController.xib */,
+			);
+			path = HeatMapComponent;
+			sourceTree = "<group>";
+		};
+		64540B9924484EE7003ADBC2 /* HeatMapComponentTests */ = {
+			isa = PBXGroup;
+			children = (
+				64540B9A24484EE7003ADBC2 /* HeatMapComponentTests.swift */,
+				64540B9C24484EE7003ADBC2 /* Info.plist */,
+			);
+			path = HeatMapComponentTests;
+			sourceTree = "<group>";
+		};
+		64540BA424484EE7003ADBC2 /* HeatMapComponentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64540BA524484EE7003ADBC2 /* HeatMapComponentUITests.swift */,
+				64540BA724484EE7003ADBC2 /* Info.plist */,
+				64540BF9244EB6F8003ADBC2 /* .swiftlint.yml */,
+			);
+			path = HeatMapComponentUITests;
+			sourceTree = "<group>";
+		};
+		B7C463D0B4F1E86EAE2A3AF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				630EF76DA263319411EA7A7C /* Pods-HeatMapComponent.debug.xcconfig */,
+				133910CF1D09B400EDCB7BBD /* Pods-HeatMapComponent.release.xcconfig */,
+				BA53E51062A32C6301BCDD3E /* Pods-HeatMapComponent-HeatMapComponentUITests.debug.xcconfig */,
+				E520853633761F27E6431B77 /* Pods-HeatMapComponent-HeatMapComponentUITests.release.xcconfig */,
+				530CB9BD44F52625ACFAB7E2 /* Pods-HeatMapComponentTests.debug.xcconfig */,
+				74605713AD7A0F930A3DE903 /* Pods-HeatMapComponentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64540B8324484EE2003ADBC2 /* HeatMapComponent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64540BAA24484EE7003ADBC2 /* Build configuration list for PBXNativeTarget "HeatMapComponent" */;
+			buildPhases = (
+				740AE49FEDC1E64EF876B799 /* [CP] Check Pods Manifest.lock */,
+				64540B8024484EE2003ADBC2 /* Sources */,
+				64540B8124484EE2003ADBC2 /* Frameworks */,
+				64540B8224484EE2003ADBC2 /* Resources */,
+				6DB043E5391657B741D10C86 /* [CP] Embed Pods Frameworks */,
+				64540BF8244EB521003ADBC2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeatMapComponent;
+			productName = HeatMapComponent;
+			productReference = 64540B8424484EE2003ADBC2 /* HeatMapComponent.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64540B9524484EE7003ADBC2 /* HeatMapComponentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64540BAD24484EE7003ADBC2 /* Build configuration list for PBXNativeTarget "HeatMapComponentTests" */;
+			buildPhases = (
+				165D4DCA7FE2CBCEBAC8ECD2 /* [CP] Check Pods Manifest.lock */,
+				64540B9224484EE7003ADBC2 /* Sources */,
+				64540B9324484EE7003ADBC2 /* Frameworks */,
+				64540B9424484EE7003ADBC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64540B9824484EE7003ADBC2 /* PBXTargetDependency */,
+			);
+			name = HeatMapComponentTests;
+			productName = HeatMapComponentTests;
+			productReference = 64540B9624484EE7003ADBC2 /* HeatMapComponentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64540BA024484EE7003ADBC2 /* HeatMapComponentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64540BB024484EE7003ADBC2 /* Build configuration list for PBXNativeTarget "HeatMapComponentUITests" */;
+			buildPhases = (
+				2D5A602034D28D17347B4319 /* [CP] Check Pods Manifest.lock */,
+				64540B9D24484EE7003ADBC2 /* Sources */,
+				64540B9E24484EE7003ADBC2 /* Frameworks */,
+				64540B9F24484EE7003ADBC2 /* Resources */,
+				F722E0408CEAC1167A0853C1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64540BA324484EE7003ADBC2 /* PBXTargetDependency */,
+			);
+			name = HeatMapComponentUITests;
+			productName = HeatMapComponentUITests;
+			productReference = 64540BA124484EE7003ADBC2 /* HeatMapComponentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64540B7C24484EE2003ADBC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Rohit Kumar Agarwalla";
+				TargetAttributes = {
+					64540B8324484EE2003ADBC2 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					64540B9524484EE7003ADBC2 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 64540B8324484EE2003ADBC2;
+					};
+					64540BA024484EE7003ADBC2 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 64540B8324484EE2003ADBC2;
+					};
+				};
+			};
+			buildConfigurationList = 64540B7F24484EE2003ADBC2 /* Build configuration list for PBXProject "HeatMapComponent" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64540B7B24484EE2003ADBC2;
+			productRefGroup = 64540B8524484EE2003ADBC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64540B8324484EE2003ADBC2 /* HeatMapComponent */,
+				64540B9524484EE7003ADBC2 /* HeatMapComponentTests */,
+				64540BA024484EE7003ADBC2 /* HeatMapComponentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64540B8224484EE2003ADBC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64540B8C24484EE6003ADBC2 /* Assets.xcassets in Resources */,
+				64540B8F24484EE6003ADBC2 /* Main.storyboard in Resources */,
+				64540BB624484F32003ADBC2 /* InteractiveHMViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64540B9424484EE7003ADBC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64540B9F24484EE7003ADBC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64540BFA244EB6F8003ADBC2 /* .swiftlint.yml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		165D4DCA7FE2CBCEBAC8ECD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeatMapComponentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D5A602034D28D17347B4319 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeatMapComponent-HeatMapComponentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64540BF8244EB521003ADBC2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n${PODS_ROOT}/SwiftLint/swiftlint\n";
+		};
+		6DB043E5391657B741D10C86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeatMapComponent/Pods-HeatMapComponent-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeatMapComponent/Pods-HeatMapComponent-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HeatMapComponent/Pods-HeatMapComponent-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		740AE49FEDC1E64EF876B799 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeatMapComponent-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F722E0408CEAC1167A0853C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeatMapComponent-HeatMapComponentUITests/Pods-HeatMapComponent-HeatMapComponentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeatMapComponent-HeatMapComponentUITests/Pods-HeatMapComponent-HeatMapComponentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HeatMapComponent-HeatMapComponentUITests/Pods-HeatMapComponent-HeatMapComponentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64540B8024484EE2003ADBC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64540BB524484F32003ADBC2 /* InteractiveHMViewController.swift in Sources */,
+				64540B8A24484EE2003ADBC2 /* ViewController.swift in Sources */,
+				64540B8824484EE2003ADBC2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64540B9224484EE7003ADBC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64540B9B24484EE7003ADBC2 /* HeatMapComponentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64540B9D24484EE7003ADBC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64540BA624484EE7003ADBC2 /* HeatMapComponentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64540B9824484EE7003ADBC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64540B8324484EE2003ADBC2 /* HeatMapComponent */;
+			targetProxy = 64540B9724484EE7003ADBC2 /* PBXContainerItemProxy */;
+		};
+		64540BA324484EE7003ADBC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64540B8324484EE2003ADBC2 /* HeatMapComponent */;
+			targetProxy = 64540BA224484EE7003ADBC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64540B8D24484EE6003ADBC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64540B8E24484EE6003ADBC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64540BA824484EE7003ADBC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64540BA924484EE7003ADBC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		64540BAB24484EE7003ADBC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 630EF76DA263319411EA7A7C /* Pods-HeatMapComponent.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HeatMapComponent/HeatMapComponent.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HeatMapComponent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lordgrim.HeatMapComponent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		64540BAC24484EE7003ADBC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 133910CF1D09B400EDCB7BBD /* Pods-HeatMapComponent.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HeatMapComponent/HeatMapComponent.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HeatMapComponent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lordgrim.HeatMapComponent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		64540BAE24484EE7003ADBC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 530CB9BD44F52625ACFAB7E2 /* Pods-HeatMapComponentTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HeatMapComponentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lordgrim.HeatMapComponentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeatMapComponent.app/Contents/MacOS/HeatMapComponent";
+			};
+			name = Debug;
+		};
+		64540BAF24484EE7003ADBC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74605713AD7A0F930A3DE903 /* Pods-HeatMapComponentTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HeatMapComponentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lordgrim.HeatMapComponentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeatMapComponent.app/Contents/MacOS/HeatMapComponent";
+			};
+			name = Release;
+		};
+		64540BB124484EE7003ADBC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA53E51062A32C6301BCDD3E /* Pods-HeatMapComponent-HeatMapComponentUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HeatMapComponentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lordgrim.HeatMapComponentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = HeatMapComponent;
+			};
+			name = Debug;
+		};
+		64540BB224484EE7003ADBC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E520853633761F27E6431B77 /* Pods-HeatMapComponent-HeatMapComponentUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HeatMapComponentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lordgrim.HeatMapComponentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = HeatMapComponent;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64540B7F24484EE2003ADBC2 /* Build configuration list for PBXProject "HeatMapComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64540BA824484EE7003ADBC2 /* Debug */,
+				64540BA924484EE7003ADBC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64540BAA24484EE7003ADBC2 /* Build configuration list for PBXNativeTarget "HeatMapComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64540BAB24484EE7003ADBC2 /* Debug */,
+				64540BAC24484EE7003ADBC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64540BAD24484EE7003ADBC2 /* Build configuration list for PBXNativeTarget "HeatMapComponentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64540BAE24484EE7003ADBC2 /* Debug */,
+				64540BAF24484EE7003ADBC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64540BB024484EE7003ADBC2 /* Build configuration list for PBXNativeTarget "HeatMapComponentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64540BB124484EE7003ADBC2 /* Debug */,
+				64540BB224484EE7003ADBC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64540B7C24484EE2003ADBC2 /* Project object */;
+}

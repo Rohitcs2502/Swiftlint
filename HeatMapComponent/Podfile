@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'HeatMapComponent' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'CorePlot'
+  pod 'SwiftLint'
+  # Pods for HeatMapComponent
+  
+  target 'HeatMapComponentTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'HeatMapComponentUITests' do
+    # Pods for testing
+  end
+
+end
