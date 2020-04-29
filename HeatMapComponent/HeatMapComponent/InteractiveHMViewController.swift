@@ -175,13 +175,13 @@ extension InteractiveHMViewController: CPTScatterPlotDataSource, CPTScatterPlotD
 //    }
     
     func scatterPlot(_ plot: CPTScatterPlot, plotSymbolWasSelectedAtRecord idx: UInt) {
-        Swift.print("plotSymbolWasSelectedAtRecord")
+        Swift.print("plotSymbolWasSelectedAtRecord idx \(idx)")
         self.tableView.isHidden = false
         self.scrollView.isHidden = false
     }
     
     func scatterPlot(_ plot: CPTScatterPlot, plotSymbolWasSelectedAtRecord idx: UInt, with event: NSEvent) {
-        Swift.print("plotSymbolWasSelectedAtRecord")
+        Swift.print("plotSymbolWasSelectedAtRecord \(idx) and event \(event)")
     }
 //    func scatterPlot(_ plot: CPTScatterPlot, dataLineTouchDownWith event: NSEvent) {
 //        Swift.print("dataLineTouchDownWith \(event)")

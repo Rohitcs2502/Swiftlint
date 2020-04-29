@@ -10,7 +10,7 @@ import Cocoa
 
 class ViewController: NSViewController {
     var lineChartWindow: InteractiveHMViewController?
-    
+    var temp: String?
     // This is for test commit
     let graphDataSet = [
         ["mpn": "MPN 1", "soldTo": "Sold To 1", "deltaToTWOs": 1],
@@ -43,6 +43,8 @@ class ViewController: NSViewController {
 
     @IBAction func openLineChart(sender: Any) {
 //        lineChartWindow = InteractiveHMViewController(windowNibName: "InteractiveHMViewController", owner: self)
+        temp = "test Data"
+        Swift.print("Testing for test data \(temp!)")
         lineChartWindow = InteractiveHMViewController(windowNibName: "InteractiveHMViewController")
         lineChartWindow?.graphDataset.removeAll(keepingCapacity: false)
         lineChartWindow?.graphDataset.append(contentsOf: self.graphDataSet)
